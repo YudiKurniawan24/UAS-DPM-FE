@@ -25,13 +25,6 @@ Aplikasi ini adalah front-end untuk manajemen kontak menggunakan React Native. B
    npm install
    ```
 
-3. **Konfigurasi backend API:**
-   Jika menggunakan file `.env`, buat file `.env` di root proyek:
-   ```env
-   REACT_APP_API_URL=http://localhost:5000/api
-   ```
-
----
 
 ## Menjalankan Aplikasi
 
@@ -40,17 +33,6 @@ Aplikasi ini adalah front-end untuk manajemen kontak menggunakan React Native. B
    npx react-native start
    ```
 
-2. **Jalankan aplikasi di emulator atau perangkat:**
-   - Android:
-     ```bash
-     npx react-native run-android
-     ```
-   - iOS:
-     ```bash
-     npx react-native run-ios
-     ```
-
----
 
 ## Struktur Direktori
 
@@ -70,7 +52,7 @@ project-repo/
 ## Troubleshooting
 
 1. **Masalah koneksi ke backend:**
-   - Periksa URL di file `.env`.
+   - Periksa URL di file 
    - Pastikan server backend berjalan dengan benar.
 
 2. **Masalah emulator Android:**
